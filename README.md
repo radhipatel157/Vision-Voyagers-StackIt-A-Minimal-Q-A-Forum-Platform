@@ -1,73 +1,75 @@
-# Welcome to your Lovable project
+# Rich Text Q&A Platform
 
-## Project info
+## 📘 Project Overview
 
-**URL**: https://lovable.dev/projects/54b91e39-4d48-4a9c-bccb-453ae64d38a5
+This is a Q&A platform designed with an intuitive user experience and powerful features for content formatting, interaction, and notifications.
 
-## How can I edit this code?
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+### 1. Rich Text Editor for Questions & Answers
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/54b91e39-4d48-4a9c-bccb-453ae64d38a5) and start prompting.
+The platform supports a feature-rich editor with:
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Text Formatting**: Bold, Italic, Strikethrough
+- **Lists**: Numbered and Bullet Points
+- **Media & Links**:
+  - Emoji insertion 😊
+  - Hyperlink insertion (URLs)
+  - Image uploads
+- **Text Alignment**: Left, Center, Right
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 2. Answering Questions
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Users can post answers to any question
+- The same rich text editor is used for answers
+- **Authentication required**: Only logged-in users can post answers
 
-Follow these steps:
+---
+
+### 3. Voting & Accepting Answers
+
+- Upvote / Downvote answers
+- Question owners can mark one answer as **Accepted**
+
+---
+
+### 4. Tagging System
+
+- Every question must include **relevant tags**
+- Helps in searchability and organization
+
+---
+
+### 5. Notification System 🔔
+
+- A notification icon is shown in the top navigation bar
+- Users receive alerts for:
+  - New answers to their questions
+  - Comments on their answers
+  - Mentions via `@username`
+- The bell icon displays the count of unread notifications
+- Clicking it opens a dropdown of recent activities
+
+---
+
+## 🚀 Getting Started Locally
+
+Make sure Node.js & npm are installed.
+
+### Clone and Run
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# 1. Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# 2. Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3. Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Start the development server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/54b91e39-4d48-4a9c-bccb-453ae64d38a5) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
